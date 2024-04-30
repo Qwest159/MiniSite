@@ -1,0 +1,32 @@
+[
+  {
+    "image": "/storage/img/imgproduit/baguette_enfant.jpg",
+    "titre": "Baguette pour Enfants",
+    "descriptions": "Cette baguette est la meilleur au petit-dejeuner"
+  },
+  {
+    "image": "/storage/img/imgproduit/baguette_adulte.jpg",
+    "titre": "Baguette pour Adulte",
+    "descriptions": "Cette baguette est assez particulière. <br>Pas besoin de donner plus de détails ..."
+  },
+  {
+    "image": "/storage/img/imgproduit/cannesenior.jpg",
+    "titre": "Baguette pour Senior",
+    "descriptions": "Belle baguette en bois robuste <br>Par contre attention à la chute"
+  },
+  {
+    "image": "/storage/img/imgproduit/baguettenonmagique.jpg",
+    "titre": "Baguette Magique",
+    "descriptions": "Meilleure vente du mois <br> * Magie non inclus ='("
+  },
+  {
+    "image": "/storage/img/imgproduit/baguette_enfant.jpg",
+    "titre": "Baguette pour Enfants",
+    "descriptions": "Cette baguette est la meilleur au petit-dejeuner"
+  },
+  {
+    "image": "/storage/img/imgproduit/baguette_enfant.jpg",
+    "titre": "Baguette pour Enfants",
+    "descriptions": "Cette baguette est la meilleur au petit-dejeuner"
+  }
+]

@@ -1,0 +1,34 @@
+[
+  {
+    "nom": "Brigitte",
+    "photo": "/storage/img/imgequipe/brigi.jpg",
+    "descriptions": "Maman sorciere et je n'ai pas d'autres idées",
+    "maisonnom": "Bouffon d'Or",
+    "maisonphoto": "/storage/img/imgmaisons/bouffondor.jpg",
+    "class": "bouf"
+  },
+  {
+    "nom": "Brigitte",
+    "photo": "/storage/img/imgequipe/Alex.jpg",
+    "descriptions": "Maman sorciere et je n'ai pas d'autres idées",
+    "maisonnom": "Serpend Retard",
+    "maisonphoto": "/storage/img/imgmaisons/serpenretard.jpg",
+    "class": "serp"
+  },
+  {
+    "nom": "Brigitte",
+    "photo": "/storage/img/imgequipe/brigi.jpg",
+    "descriptions": "Maman sorciere et je n'ai pas d'autres idées",
+    "maisonnom": "Serre d'Aigle",
+    "maisonphoto": "/storage/img/imgmaisons/serdaigle.jpg",
+    "class": "serd"
+  },
+  {
+    "nom": "Brigitte",
+    "photo": "/storage/img/imgequipe/brigi.jpg",
+    "descriptions": "Maman sorciere et je n'ai pas d'autres idées",
+    "maisonnom": "Pouf Souffle",
+    "maisonphoto": "/storage/img/imgmaisons/poufsouffle.jpg",
+    "class": "pouf"
+  }
+]
