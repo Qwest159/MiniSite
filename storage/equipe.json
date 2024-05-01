@@ -8,12 +8,20 @@
     "class": "bouf"
   },
   {
-    "nom": "Brigitte",
+    "nom": "Alex",
     "photo": "/storage/img/imgequipe/Alex.jpg",
-    "descriptions": "Maman sorciere et je n'ai pas d'autres idées",
-    "maisonnom": "Serpend Retard",
+    "descriptions": "Une sorciere parmi tant d'autre",
+    "maisonnom": "Serpent Retard",
     "maisonphoto": "/storage/img/imgmaisons/serpenretard.jpg",
     "class": "serp"
+  },
+  {
+    "nom": "Eric",
+    "photo": "/storage/img/imgequipe/eric.jpg",
+    "descriptions": "On le surnomme hagrid",
+    "maisonnom": "Pouf Souffle",
+    "maisonphoto": "/storage/img/imgmaisons/poufsouffle.jpg",
+    "class": "pouf"
   },
   {
     "nom": "Brigitte",
@@ -22,13 +30,5 @@
     "maisonnom": "Serre d'Aigle",
     "maisonphoto": "/storage/img/imgmaisons/serdaigle.jpg",
     "class": "serd"
-  },
-  {
-    "nom": "Brigitte",
-    "photo": "/storage/img/imgequipe/brigi.jpg",
-    "descriptions": "Maman sorciere et je n'ai pas d'autres idées",
-    "maisonnom": "Pouf Souffle",
-    "maisonphoto": "/storage/img/imgmaisons/poufsouffle.jpg",
-    "class": "pouf"
   }
 ]

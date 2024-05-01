@@ -1,0 +1,1 @@
+[null,"JE NE COMPREND PAS",{"Nom":"","Prenom":"<?php echo $args[","Email":"dingomax2@hotmail.com","Message":"<?php echo $args[\"valeurNetoyee\"][\"Message\"] ?? '' ?>"},"JE NE COMPREND PAS"]
