@@ -1,32 +1,45 @@
+import "../sreset.css";
 import "../style.css";
 import { nav } from "../components/nav.js";
 import { footer } from "../components/footer.js";
 
-function formulaire() {
+function contacts(err = undefined, echap = undefined) {
   document.querySelector("#app").innerHTML = `
-${nav} `;
-  const formHtml = ` 
-<form id="contactForm" method="POST">
+    ${nav} 
+    <main id="contact">
+    <form id="contactForm" method="POST">
+    <section class="classic">
+        <label for="Nom">Votre Nom :</label> 
+        <input type="text" name="Nom" id="Nom" placeholder="Votre Nom" value="">
+        <p id="err_Nom" class="erreur"></p>
+      </section>
 
-    <label for="nom">Votre Nom :</label> 
-    <input type="text" name="Nom" id="nom" placeholder="Votre Nom" value="">
-    <p class="erreur"> <?php echo $args["erreurs"]["Nom"] ?? '' ?></p>
+      <section class="classic">
+        <label for="Prenom"> Votre Prénom :</label>
+        <input type="text" name="Prenom" id="Prenom" placeholder="Votre Prénom" value="">
+        <p id="err_Prenom" class="erreur"></p>
+        </section>
 
-    <label for="prenom"> Votre Prénom :</label>
-    <input type="text" name="Prenom" id="prenom" placeholder="Votre Prénom" value="<?php echo $args["valeurNetoyee"]["Prénom"] ?? '' ?>">
-    <p class="erreur"><?php echo $args["erreurs"]["Prénom"] ?? '' ?></p>
+        <section class="classic">
+        <label for="Email">Adresse émail :</label>
+        <input type="email" name="Email" id="Email" placeholder="Adresse @ " value="">
+        <p  id="err_Email" class="erreur"></p>
+        </section>
 
-    <label for="emaille">Adresse émail :</label>
-    <input type="email" name="Email" id="emaille" placeholder="Adresse @ " value=" dingomax2@hotmail.com ">
-    <p class="erreur"><?php echo $args["erreurs"]["Email"] ?? '' ?></p>
+        <section id="message">
+        <label for="Message">Votre message:</label><br><textarea name="Message" id="Message" cols="30" rows="10"></textarea>
+        <p  id="err_Message" class="erreur"></p>
+        </section>
 
-    <label for="message">Votre message:</label><br><textarea name="Message" id="message" cols="30" rows="10"><?php echo $args["valeurNetoyee"]["Message"] ?? '' ?></textarea>
-    <p class="erreur"><?php echo $args["erreurs"]["Message"] ?? '' ?></p>
+        <section>
+        <input type="submit" value="Envoier">
+        </section>
 
-    <input type="submit" value="Envoier">
-</form>
-${footer}`;
-  document.querySelector("#app").innerHTML += formHtml;
+    </form>
+      </main>
+    ${footer}
+  
+  `;
 
   document
     .querySelector("#contactForm")
@@ -37,18 +50,31 @@ ${footer}`;
 
       let url = new URL(import.meta.env.VITE_API_URL);
       url.pathname = "/minisite/api/formulaire.php";
-      await fetch(url, {
+      let test = await fetch(url, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
         },
         body: JSON.stringify(data),
       });
+      const args = await test.json();
 
-      //   alert("Message envoyé !");
-      e.target.reset();
-    })`
-
-`;
+      if (args !== null) {
+        let erreurs = args["erreurs"];
+        let valeurNetoyee = args["valeurNetoyee"];
+        let clés = Object.keys(valeurNetoyee);
+        clés.forEach((cle) => {
+          let id = "#err_" + cle;
+          if (erreurs[cle]) {
+            document.querySelector(id).innerText = erreurs[cle];
+          } else {
+            document.querySelector(id).innerText = "";
+          }
+        });
+      } else {
+        alert("Non mais oh, tu y croyais vraiment en la magie?");
+        e.target.reset();
+      }
+    });
 }
-formulaire();
+contacts();

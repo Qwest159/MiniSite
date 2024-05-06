@@ -24,11 +24,35 @@
     "class": "pouf"
   },
   {
-    "nom": "Brigitte",
-    "photo": "/storage/img/imgequipe/brigi.jpg",
-    "descriptions": "Maman sorciere et je n'ai pas d'autres idées",
+    "nom": "Moah",
+    "photo": "/storage/img/imgequipe/moah.png",
+    "descriptions": "Petite fille, attention a ces pouvoirs magiques",
     "maisonnom": "Serre d'Aigle",
     "maisonphoto": "/storage/img/imgmaisons/serdaigle.jpg",
     "class": "serd"
+  },
+  {
+    "nom": "Steven",
+    "photo": "/storage/img/imgequipe/steven.jpg",
+    "descriptions": "Futur magicien en herbe",
+    "maisonnom": "Serpent Retard",
+    "maisonphoto": "/storage/img/imgmaisons/serpenretard.jpg",
+    "class": "serp"
+  },
+  {
+    "nom": "Nala",
+    "photo": "/storage/img/imgequipe/Nala.jpg",
+    "descriptions": "Petite créature magique d'amour",
+    "maisonnom": "Pouf Souffle",
+    "maisonphoto": "/storage/img/imgmaisons/poufsouffle.jpg",
+    "class": "pouf"
+  },
+  {
+    "nom": "Raphaël",
+    "photo": "/storage/img/imgequipe/raph.jpg",
+    "descriptions": "Inconnu",
+    "maisonnom": "Bouffon d'Or",
+    "maisonphoto": "/storage/img/imgmaisons/bouffondor.jpg",
+    "class": "bouf"
   }
 ]

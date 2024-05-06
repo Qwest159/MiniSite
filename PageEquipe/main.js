@@ -1,6 +1,11 @@
+import "../sreset.css";
 import "../style.css";
 import { nav } from "../components/nav.js";
 import { footer } from "../components/footer";
+
+document.querySelector("#nav").innerHTML = `
+
+${nav}`;
 
 async function equipe() {
   let url = new URL(import.meta.env.VITE_API_URL);
@@ -9,24 +14,31 @@ async function equipe() {
   const equijson = await response.json();
 
   document.querySelector("#app").innerHTML = `
-${nav}
-<main id="equipe">
+
+ 
+   
+<main id="equipe" class="flex">
+
   ${equijson
     .map(
       (equipe) => `
-
+          <section class="${equipe.class}">
+          
             <figure>
-            <img src="${equipe.photo}" alt="">
-            <p>${equipe.nom}</p>
-
-
-     
-            <p>${equipe.descriptions}</p>
-
-            
-            <img src="${equipe.maisonphoto}" alt="">
-            <figcaption class="${equipe.class}">${equipe.maisonnom}</figcaption>
+              <img src="${equipe.photo}" alt="">
             </figure>
+
+            <div>
+              <h2>${equipe.nom}</h2>
+              <p>${equipe.descriptions}</p>
+            </div>
+ 
+            <figure>
+              <img src="${equipe.maisonphoto}" alt="">
+              <figcaption class="${equipe.class}">${equipe.maisonnom}</figcaption>
+            </figure>
+
+          </section>
    `
     )
 

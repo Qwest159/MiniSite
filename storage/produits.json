@@ -1,32 +1,85 @@
-[
-  {
-    "image": "/storage/img/imgproduit/baguette_enfant.jpg",
-    "titre": "Baguette pour Enfants",
-    "descriptions": "Cette baguette est la meilleur au petit-dejeuner"
-  },
-  {
-    "image": "/storage/img/imgproduit/baguette_adulte.jpg",
-    "titre": "Baguette pour Adulte",
-    "descriptions": "Cette baguette est assez particulière. <br>Pas besoin de donner plus de détails ..."
-  },
-  {
-    "image": "/storage/img/imgproduit/cannesenior.jpg",
-    "titre": "Baguette pour Senior",
-    "descriptions": "Belle baguette en bois robuste <br>Par contre attention à la chute"
-  },
-  {
-    "image": "/storage/img/imgproduit/baguettenonmagique.jpg",
-    "titre": "Baguette Magique",
-    "descriptions": "Meilleure vente du mois <br> * Magie non inclus ='("
-  },
-  {
-    "image": "/storage/img/imgproduit/baguette_enfant.jpg",
-    "titre": "Baguette pour Enfants",
-    "descriptions": "Cette baguette est la meilleur au petit-dejeuner"
-  },
-  {
-    "image": "/storage/img/imgproduit/baguette_enfant.jpg",
-    "titre": "Baguette pour Enfants",
-    "descriptions": "Cette baguette est la meilleur au petit-dejeuner"
-  }
-]
+{
+  "arme": [
+    {
+      "image": "/storage/img/imgproduit/baguette_enfant.jpg",
+      "titre": "Baguette pour Enfants",
+      "descriptions": "Cette baguette est la meilleure au petit-déjeuner"
+    },
+    {
+      "image": "/storage/img/imgproduit/baguette_adulte.jpg",
+      "titre": "Baguette pour Adulte",
+      "descriptions": "Cette baguette est assez particulière. <br>Pas besoin de donner plus de détails ..."
+    },
+    {
+      "image": "/storage/img/imgproduit/cannesenior.jpg",
+      "titre": "Baguette pour Senior",
+      "descriptions": "Belle baguette en bois robuste <br>Par contre attention à la chute"
+    },
+    {
+      "image": "/storage/img/imgproduit/baguettenonmagique.jpg",
+      "titre": "Baguette Magique",
+      "descriptions": "Meilleure vente du mois <br> * Magie non inclus ='("
+    }
+  ],
+
+  "vet": [
+    {
+      "image": "/storage/img/imgproduit/vet/baslaid.png",
+      "titre": "Bas laid",
+      "descriptions": "Ce bas laid est tellement laid qu'il donne l'impression que les sorcières ont lancé un sort d'effroi sur leur propre monture !"
+    },
+    {
+      "image": "/storage/img/imgproduit/vet/carpeinvisible.jpg",
+      "titre": "Carpe invisibilité",
+      "descriptions": "Cette cape légendaire permet juste de rendre la carpe invisible"
+    },
+    {
+      "image": "/storage/img/imgproduit/vet/dobbyisfree.jpg",
+      "titre": "Chausette Doby",
+      "descriptions": "Des Chaussettes libres pour Dobby. Pour ceux qui soutiennent la cause des elfes de maison."
+    },
+    {
+      "image": "/storage/img/imgproduit/vet/nainbus.png",
+      "titre": "Nain bus 2000",
+      "descriptions": "Une autre style de balai, mais cette version est la plus rapide grace à son conducteur"
+    },
+    {
+      "image": "/storage/img/imgproduit/vet/rayonx.PNG",
+      "titre": "Lunette rayon X",
+      "descriptions": "Attention : Ces lunettes peuvent révéler des secrets..."
+    }
+  ],
+
+  "objets": [
+    {
+      "image": "/storage/img/imgproduit/accessoire/massue.png",
+      "titre": "Lit masse",
+      "descriptions": "Avant on l'appelait lit massue, mais elle a perdu ses piques entre temps<br>PS: pas pratique pour dormir"
+    },
+    {
+      "image": "/storage/img/imgproduit/accessoire/potionamour.png",
+      "titre": "Potion d'amour qui fait rire ",
+      "descriptions": "Une potion d'amour qui, au lieu de rendre les gens romantiques, les fait simplement rire sans fin lorsqu'ils se regardent"
+    },
+    {
+      "image": "/storage/img/imgproduit/accessoire/livremagie.png",
+      "titre": "Livre de sort mélangeur ",
+      "descriptions": "Il mélange les incantations pour créer des effets inattendus.<br>Comme AVADA KEDAVRA..."
+    },
+    {
+      "image": "/storage/img/imgproduit/accessoire/porto.png",
+      "titre": "Porto loin",
+      "descriptions": "Ce fameux porto teleportera quiconque qui le touchera"
+    },
+    {
+      "image": "/storage/img/imgproduit/accessoire/vifdor.png",
+      "titre": "Vif d'or",
+      "descriptions": "NE T'EMBALLE PAS.<br> C'est juste un ferrero rocher"
+    },
+    {
+      "image": "/storage/img/imgproduit/accessoire/bonbon.png",
+      "titre": "Bonbons aux saveurs changeantes",
+      "descriptions": " Des bonbons qui changent de saveur à chaque bouchée.<br>Saveur pizza hawaïenne ..."
+    }
+  ]
+}
