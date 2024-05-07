@@ -1,5 +1,5 @@
-import "/sreset.css";
-import "/style.css";
+// import "./sreset.css";
+// import "./style.css";
 
 import { nav } from "./components/nav.js";
 import { footer } from "./components/footer.js";
@@ -8,8 +8,10 @@ document.querySelector("#nav").innerHTML = `
 ${nav}`;
 
 async function accueil() {
+  // urlPage = window.location.href;
+  // let url = new URL("http://minisite.qwesty.be/");
   let url = new URL(import.meta.env.VITE_API_URL);
-  url.pathname = "/minisite/api/accueil.php";
+  url.pathname = "api/accueil.php";
   const response = await fetch(url);
   const acceuiljson = await response.json();
 

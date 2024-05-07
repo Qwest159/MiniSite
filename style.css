@@ -3,6 +3,7 @@
 body {
   background-color: rgba(46, 40, 228, 0.388);
   margin: 0;
+  min-width: 48em;
 }
 a {
   text-decoration: none;
@@ -30,11 +31,13 @@ nav ul img {
   margin: 0;
   padding-inline-start: 0;
 }
-#nav .active {
+.active {
   color: red; /* Couleur rouge pour le lien actif */
 }
+#nav li {
+  color: white;
+}
 #nav li a {
-  color: rgb(255, 255, 255);
   font-size: 1.8em;
   font-weight: 600;
 }
@@ -83,7 +86,7 @@ body#accueil main {
   line-height: 1.5em;
 }
 /* ----------Maisons----------- */
-
+/* retrait image */
 main#maisons {
   background-image: url("/storage/img/imgaccueil/banderollecote1.png"),
     url("/storage/img/imgaccueil/banderollecote1.png");
@@ -92,7 +95,7 @@ main#maisons {
   background-repeat: no-repeat;
   background-size: 13em;
   /* height: 700px; */
-  min-width: 940px;
+  /* min-width: 940px; */
 }
 
 main#maisons article {
@@ -288,6 +291,7 @@ main#equipe section:hover {
 }
 /* ---------CONTACT-------- */
 /* ERREUR CONNUE: les p qui affiche les messages d'erreur agrandis le form +ou- resolu*/
+/* retrait image coté*/
 main#contact {
   display: flex;
   justify-content: center;
@@ -301,7 +305,7 @@ main#contact {
   background-repeat: no-repeat;
   background-size: 13em;
   height: 35em;
-  min-width: 45em;
+  /* min-width: 45em; */
   margin: 2.2em 0;
 }
 main#contact form {

@@ -1,5 +1,5 @@
-import "../sreset.css";
-import "../style.css";
+// import "../sreset.css";
+// import "../style.css";
 import { nav } from "../components/nav.js";
 import { footer } from "../components/footer.js";
 
@@ -48,8 +48,8 @@ function contacts(err = undefined, echap = undefined) {
       const formData = new FormData(e.target);
       const data = Object.fromEntries(formData.entries());
 
-      let url = new URL(import.meta.env.VITE_API_URL);
-      url.pathname = "/minisite/api/formulaire.php";
+      let url = new URL("http://minisite.qwesty.be/");
+      url.pathname = "api/formulaire.php";
       let test = await fetch(url, {
         method: "POST",
         headers: {
