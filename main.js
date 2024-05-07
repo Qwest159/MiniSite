@@ -13,6 +13,7 @@ async function accueil() {
   let url = new URL(import.meta.env.VITE_API_URL);
   url.pathname = "api/accueil.php";
   const response = await fetch(url);
+  // const response = await fetch(url);
   const acceuiljson = await response.json();
 
   document.querySelector("#app").innerHTML = `
