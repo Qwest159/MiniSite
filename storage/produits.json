@@ -13,12 +13,12 @@
     {
       "image": "/storage/img/imgproduit/cannesenior.jpg",
       "titre": "Baguette pour Senior",
-      "descriptions": "Belle baguette en bois robuste <br>Par contre attention à la chute"
+      "descriptions": "Belle baguette en bois robuste. <br>Par contre attention à la chute"
     },
     {
       "image": "/storage/img/imgproduit/baguettenonmagique.jpg",
       "titre": "Baguette Magique",
-      "descriptions": "Meilleure vente du mois <br> * Magie non inclus ='("
+      "descriptions": "Meilleure vente du mois <br> * Magie non incluse ='("
     }
   ],
 
@@ -35,17 +35,17 @@
     },
     {
       "image": "/storage/img/imgproduit/vet/dobbyisfree.jpg",
-      "titre": "Chausette Doby",
+      "titre": "Chaussette Dobby",
       "descriptions": "Des Chaussettes libres pour Dobby. Pour ceux qui soutiennent la cause des elfes de maison."
     },
     {
       "image": "/storage/img/imgproduit/vet/nainbus.png",
       "titre": "Nain bus 2000",
-      "descriptions": "Une autre style de balai, mais cette version est la plus rapide grace à son conducteur"
+      "descriptions": "Une autre style de balai, mais cette version est la plus rapide grâce à son conducteur"
     },
     {
       "image": "/storage/img/imgproduit/vet/rayonx.PNG",
-      "titre": "Lunette rayon X",
+      "titre": "Lunettes rayon X",
       "descriptions": "Attention : Ces lunettes peuvent révéler des secrets..."
     }
   ],
@@ -54,7 +54,7 @@
     {
       "image": "/storage/img/imgproduit/accessoire/massue.png",
       "titre": "Lit masse",
-      "descriptions": "Avant on l'appelait lit massue, mais elle a perdu ses piques entre temps<br>PS: pas pratique pour dormir"
+      "descriptions": "Avant on l'appelait lit massue, mais elle a perdu ses piques entre-temps<br>PS: pas pratique pour dormir"
     },
     {
       "image": "/storage/img/imgproduit/accessoire/potionamour.png",
@@ -63,18 +63,18 @@
     },
     {
       "image": "/storage/img/imgproduit/accessoire/livremagie.png",
-      "titre": "Livre de sort mélangeur ",
+      "titre": "Livre de sorts mélangeur ",
       "descriptions": "Il mélange les incantations pour créer des effets inattendus.<br>Comme AVADA KEDAVRA..."
     },
     {
       "image": "/storage/img/imgproduit/accessoire/porto.png",
       "titre": "Porto loin",
-      "descriptions": "Ce fameux porto teleportera quiconque qui le touchera"
+      "descriptions": "Ce fameux porto téléportera quiconque le touchera"
     },
     {
       "image": "/storage/img/imgproduit/accessoire/vifdor.png",
       "titre": "Vif d'or",
-      "descriptions": "NE T'EMBALLE PAS.<br> C'est juste un ferrero rocher"
+      "descriptions": "NE T'EMBALLE PAS.<br> C'est juste un Ferrero Rocher"
     },
     {
       "image": "/storage/img/imgproduit/accessoire/bonbon.png",

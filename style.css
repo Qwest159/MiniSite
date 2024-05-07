@@ -11,7 +11,7 @@ a {
 
 nav {
   /* border: solid; */
-  margin-top: 4em;
+  margin-top: 3.1em;
 }
 nav ul img {
   width: 9em;
@@ -28,14 +28,14 @@ nav ul img {
   justify-content: space-around;
   align-items: center;
   margin: 0;
-  padding-inline-start: 0px;
+  padding-inline-start: 0;
 }
 #nav .active {
   color: red; /* Couleur rouge pour le lien actif */
 }
 #nav li a {
   color: rgb(255, 255, 255);
-  font-size: 25px;
+  font-size: 1.8em;
   font-weight: 600;
 }
 
@@ -47,7 +47,7 @@ nav ul img {
 }
 #footer p {
   margin: 0;
-  padding: 10px;
+  padding: 0.6em;
 }
 footer i {
   width: 100px;
@@ -68,7 +68,7 @@ body#accueil header {
   text-align: center;
 }
 body#accueil header img {
-  border: solid 9px;
+  border: solid 0.6em;
 }
 body#accueil header figure img {
   background-color: grey;
@@ -78,7 +78,7 @@ body#accueil header figure img {
 }
 body#accueil main {
   text-align: center;
-  font-size: 25px;
+  font-size: 1.6em;
   font-weight: 700;
   line-height: 1.5em;
 }
@@ -99,7 +99,7 @@ main#maisons article {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  margin: 15px 11em;
+  margin: 1em 11em;
 }
 main#maisons section {
   width: 14em;
@@ -108,28 +108,28 @@ main#maisons section {
 
 main#maisons section:nth-of-type(1) {
   background-color: rgba(255, 0, 0, 0.719);
-  border: solid 10px rgba(255, 0, 0);
-  border-radius: 15px;
-  box-shadow: 0px 0px 25px rgb(0, 0, 0);
+  border: solid 0.6em rgba(255, 0, 0);
+  border-radius: 1em;
+  box-shadow: 0 0 1.5em rgb(0, 0, 0);
 }
 
 main#maisons section:nth-of-type(2) {
   background-color: rgba(51, 255, 0, 0.554);
   border: solid 10px rgba(51, 255, 0);
-  border-radius: 15px;
-  box-shadow: 0px 0px 25px rgb(0, 0, 0);
+  border-radius: 1em;
+  box-shadow: 0 0 1.5em rgb(0, 0, 0);
 }
 main#maisons section:nth-of-type(3) {
   background-color: rgba(0, 102, 255, 0.554);
   border: solid 10px rgba(0, 102, 255);
-  border-radius: 15px;
-  box-shadow: 0px 0px 25px rgb(0, 0, 0);
+  border-radius: 1em;
+  box-shadow: 0 0 1.5em rgb(0, 0, 0);
 }
 main#maisons section:nth-of-type(4) {
   background-color: rgba(255, 251, 0, 0.554);
   border: solid 10px rgba(255, 251, 0);
-  border-radius: 15px;
-  box-shadow: 0px 0px 25px rgb(0, 0, 0);
+  border-radius: 1em;
+  box-shadow: 0 0 1.5em rgb(0, 0, 0);
 }
 
 main#maisons section:hover {
@@ -142,23 +142,19 @@ main#maisons figure {
 }
 main#maisons figure img {
   width: 100%;
-  height: 200px;
+  height: 12.5em;
 }
 main#maisons figure p {
-  height: 300px;
-  font-size: 20px;
+  height: 15.5em;
+  font-size: 1.3em;
   font-weight: 700;
   line-height: 1.3em;
 }
 main#maisons h1 {
-  font-size: 30px;
+  font-size: 1.9em;
   line-height: 1.3em;
+  margin-top: 0.7em;
 }
-
-/* main#maisons #footer {
-  position: absolute;
-  bottom: 0;
-} */
 /* ----------PRODUITS----------- */
 
 main#produits article {
@@ -172,14 +168,14 @@ main#produits article {
 main#produits section {
   display: grid;
   border: solid 10px;
-  border-radius: 15px;
-  margin: 15px 60px;
+  border-radius: 1em;
+  margin: 1em 3.5em;
   width: 15em;
   background-color: rgb(210, 207, 207);
 }
 main#produits img {
   width: 15em;
-  height: 200px;
+  height: 12.5em;
 }
 main#produits p {
   font-size: larger;
@@ -191,7 +187,7 @@ main#produits figure {
 main#produits h1 {
   text-align: center;
   color: rgb(255, 0, 0);
-  font-size: 80px;
+  font-size: 5em;
   text-shadow: 4px 4px 5px rgba(0, 0, 0, 0.169);
   box-shadow: 0px -5px 5px rgba(0, 0, 0, 0.169);
 }
@@ -199,6 +195,7 @@ main#produits section:hover {
   box-shadow: 0px 0px 500px rgb(0, 0, 0);
   transform: scale(1.1);
 }
+
 /* -----------EQUIPE------------- */
 
 main#equipe {
@@ -213,15 +210,16 @@ main#equipe section {
   display: grid;
   border: solid 10px;
   border-radius: 15px;
-  margin: 15px 60px;
+  margin: 0em 3.75em;
+  margin-bottom: 1.5em;
 }
 main#equipe figure {
   margin: 0;
 }
 /* premiere image  */
 main#equipe figure:nth-of-type(1) img {
-  width: 210px;
-  height: 275px;
+  width: 13.1em;
+  height: 16.8em;
 }
 
 main#equipe figure:nth-of-type(2) {
@@ -239,7 +237,7 @@ main#equipe img {
 }
 /* 2ieme image  */
 main#equipe figure:nth-of-type(2) img {
-  width: 210px;
+  width: 13.1em;
   /* border: solid red; */
 }
 main#equipe p {
@@ -248,12 +246,12 @@ main#equipe p {
   word-wrap: break-word;
 }
 main#equipe p:last-child {
-  height: 70px;
+  height: 3em;
   /* border: solid red; */
 }
 /* conteneur des p */
 main#equipe div {
-  width: 200px;
+  width: 13.1em;
   /* height: 150px; valeur qui change la longeur des p */
   margin: auto;
 }
@@ -284,14 +282,17 @@ main#equipe .serd {
   background-color: rgba(0, 102, 255, 0.554);
   border-color: rgba(0, 102, 255);
 }
-
+main#equipe section:hover {
+  box-shadow: 0px 0px 500px rgb(0, 0, 0);
+  transform: scale(1.05);
+}
 /* ---------CONTACT-------- */
 /* ERREUR CONNUE: les p qui affiche les messages d'erreur agrandis le form +ou- resolu*/
 main#contact {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 20px;
+  font-size: 1.25em;
 
   background-image: url("/storage/img/imgaccueil/bande2.png"),
     url("/storage/img/imgaccueil/bande2.png");
@@ -299,12 +300,12 @@ main#contact {
   /* background-image: url("/storage/img/imgaccueil/banderollecote2.png"); */
   background-repeat: no-repeat;
   background-size: 13em;
-  height: 740px;
-  min-width: 940px;
+  height: 35em;
+  min-width: 45em;
   margin: 2.2em 0;
 }
 main#contact form {
-  padding: 15px 50px;
+  padding: 1em 2.7em;
   border: solid 12px rgb(60, 242, 255);
   border-radius: 25px;
 }
@@ -312,14 +313,17 @@ main#contact section {
   display: grid;
 }
 main#contact section#message {
-  height: 13em;
+  height: 12em;
 }
 main#contact section.classic {
-  height: 6.3em;
+  height: 5.5em;
 }
 
 main#contact label {
   margin-bottom: 5px;
+}
+main#contact input {
+  padding: 0.4em;
 }
 
 /* main#contact #footer {

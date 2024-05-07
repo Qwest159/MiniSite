@@ -5,8 +5,8 @@ export const nav = `
           <li><a href="/">Accueil</a></li>
           <li><a href="/PageMaisons/">Maisons</a></li>
           <li><a href="/PageProduits/">Produit</a></li>
-          <li><a href="/PageContact/">Contact</a></li>
           <li><a href="/PageEquipe/">Equipe</a></li>
+          <li><a href="/PageContact/">Contact</a></li>
         </ul>
       </nav>
     `;

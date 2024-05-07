@@ -2,7 +2,7 @@
   {
     "nom": "Brigitte",
     "photo": "/storage/img/imgequipe/brigi.jpg",
-    "descriptions": "Maman sorciere et je n'ai pas d'autres idées",
+    "descriptions": "Maman sorcière et je n'ai pas d'autres idées",
     "maisonnom": "Bouffon d'Or",
     "maisonphoto": "/storage/img/imgmaisons/bouffondor.jpg",
     "class": "bouf"
@@ -10,7 +10,7 @@
   {
     "nom": "Alex",
     "photo": "/storage/img/imgequipe/Alex.jpg",
-    "descriptions": "Une sorciere parmi tant d'autre",
+    "descriptions": "Une sorcière parmi tant d'autres",
     "maisonnom": "Serpent Retard",
     "maisonphoto": "/storage/img/imgmaisons/serpenretard.jpg",
     "class": "serp"
@@ -18,7 +18,7 @@
   {
     "nom": "Eric",
     "photo": "/storage/img/imgequipe/eric.jpg",
-    "descriptions": "On le surnomme hagrid",
+    "descriptions": "On le surnomme Hagrid",
     "maisonnom": "Pouf Souffle",
     "maisonphoto": "/storage/img/imgmaisons/poufsouffle.jpg",
     "class": "pouf"
@@ -26,7 +26,7 @@
   {
     "nom": "Moah",
     "photo": "/storage/img/imgequipe/moah.png",
-    "descriptions": "Petite fille, attention a ces pouvoirs magiques",
+    "descriptions": "Petite fille, attention à ses pouvoirs magiques",
     "maisonnom": "Serre d'Aigle",
     "maisonphoto": "/storage/img/imgmaisons/serdaigle.jpg",
     "class": "serd"
@@ -42,7 +42,7 @@
   {
     "nom": "Nala",
     "photo": "/storage/img/imgequipe/Nala.jpg",
-    "descriptions": "Petite créature magique d'amour",
+    "descriptions": "Petite créature d'amour magique",
     "maisonnom": "Pouf Souffle",
     "maisonphoto": "/storage/img/imgmaisons/poufsouffle.jpg",
     "class": "pouf"
@@ -54,5 +54,21 @@
     "maisonnom": "Bouffon d'Or",
     "maisonphoto": "/storage/img/imgmaisons/bouffondor.jpg",
     "class": "bouf"
+  },
+  {
+    "nom": "André",
+    "photo": "/storage/img/imgequipe/andre.png",
+    "descriptions": "Un érudit en la matière",
+    "maisonnom": "Serre d'Aigle",
+    "maisonphoto": "/storage/img/imgmaisons/serdaigle.jpg",
+    "class": "serd"
+  },
+  {
+    "nom": "Nicolas",
+    "photo": "/storage/img/imgequipe/nico.png",
+    "descriptions": "Un tout jeune magicien diplômé !",
+    "maisonnom": "Pouf Souffle",
+    "maisonphoto": "/storage/img/imgmaisons/poufsouffle.jpg",
+    "class": "pouf"
   }
 ]

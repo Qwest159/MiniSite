@@ -38,7 +38,7 @@ async function accueil() {
 
         <p>
           Te voilà prêt,si tu as toujours envie de
-          devenir un vrai non-magicien, alors <strong><a href="/PageContact/">inscrit toi !</a></strong> 
+          devenir un vrai non-magicien, alors <strong><a href="/PageContact/">inscris-toi !</a></strong> 
         </p>
 
 </main>

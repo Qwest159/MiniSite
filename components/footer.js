@@ -9,7 +9,7 @@ export const footer = `
 </head>
 <footer id="footer">
 <p>Mentions légales</p>
-<p>© Made by me ©</p>
+<p>© Made by Qwest ©</p>
 
 <p>
 <a href="/"><i class="fa-brands fa-tiktok"></i></a>

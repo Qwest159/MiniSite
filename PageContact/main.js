@@ -72,7 +72,7 @@ function contacts(err = undefined, echap = undefined) {
           }
         });
       } else {
-        alert("Non mais oh, tu y croyais vraiment en la magie?");
+        alert("Non mais..., tu y croyais vraiment en la magie?");
         e.target.reset();
       }
     });
