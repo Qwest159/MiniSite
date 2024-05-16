@@ -7,7 +7,7 @@ document.querySelector("#nav").innerHTML = `
 ${nav}`;
 
 async function Page_produit() {
-  let url = new URL("http://minisite.qwesty.be/");
+  let url = new URL("https://minisite.qwesty.be/");
   url.pathname = "api/produit.php";
 
   const response = await fetch(url);

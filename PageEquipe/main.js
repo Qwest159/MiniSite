@@ -6,7 +6,7 @@ import { footer } from "../components/footer";
 document.querySelector("#nav").innerHTML = nav;
 
 async function equipe() {
-  let url = new URL("http://minisite.qwesty.be/");
+  let url = new URL("https://minisite.qwesty.be/");
   url.pathname = "api/equipe.php";
   const response = await fetch(url);
   const equijson = await response.json();

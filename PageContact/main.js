@@ -48,7 +48,7 @@ function contacts(err = undefined, echap = undefined) {
       const formData = new FormData(e.target);
       const data = Object.fromEntries(formData.entries());
 
-      let url = new URL("http://minisite.qwesty.be/");
+      let url = new URL("https://minisite.qwesty.be/");
       url.pathname = "api/formulaire.php";
       let test = await fetch(url, {
         method: "POST",

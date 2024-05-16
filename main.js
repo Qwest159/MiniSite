@@ -8,9 +8,9 @@ document.querySelector("#nav").innerHTML = `
 ${nav}`;
 
 async function accueil() {
-  // urlPage = window.location.href;
-  // let url = new URL("http://minisite.qwesty.be/");
-  let url = new URL(import.meta.env.VITE_API_URL);
+  //let urlPage = window.location.href;
+  let url = new URL("https://minisite.qwesty.be/");
+  // let url = new URL(import.meta.env.VITE_API_URL);
   url.pathname = "api/accueil.php";
   const response = await fetch(url);
   // const response = await fetch(url);

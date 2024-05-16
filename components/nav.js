@@ -3,7 +3,7 @@ console.log(pageactuelle);
 const urls = [
   { url: "/", nom: "Accueil" },
   { url: "/PageMaisons/", nom: "Maisons" },
-  { url: "//PageProduits//", nom: "Produits" },
+  { url: "/PageProduits/", nom: "Produits" },
   { url: "/PageEquipe/", nom: "Equipe" },
   { url: "/PageContact/", nom: "Contact" },
 ];

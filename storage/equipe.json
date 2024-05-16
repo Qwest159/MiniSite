@@ -2,7 +2,7 @@
   {
     "nom": "Brigitte",
     "photo": "/storage/img/imgequipe/brigi.jpg",
-    "descriptions": "Maman sorcière et je n'ai pas d'autres idées",
+    "descriptions": "Maman sorcière, son grimoire contient de bonnes recettes magiques",
     "maisonnom": "Bouffon d'Or",
     "maisonphoto": "/storage/img/imgmaisons/bouffondor.jpg",
     "class": "bouf"
@@ -50,7 +50,7 @@
   {
     "nom": "Raphaël",
     "photo": "/storage/img/imgequipe/raph.jpg",
-    "descriptions": "Inconnu",
+    "descriptions": "Un vrai magicien avec de vrai pouvoir !",
     "maisonnom": "Bouffon d'Or",
     "maisonphoto": "/storage/img/imgmaisons/bouffondor.jpg",
     "class": "bouf"
